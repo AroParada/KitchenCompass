@@ -28,6 +28,12 @@ class recipeView {
     this.#parentElement.insertAdjacentHTML('afterbegin', markup);
   };
 
+  addHandlerRender(handler) {
+    ['hashchange', 'load'].forEach(ev =>
+      window.addEventListener(ev, handler)
+    );
+  }
+
   #generateMarkup() {
     return `<figure class="recipe__fig">
           <img src="${this.#data.image}" alt="${
@@ -114,7 +120,7 @@ class recipeView {
   }
 
   #generateMarkupIngredient(ing) {
-      return `
+    return `
             <li class="recipe__ingredient">
               <svg class="recipe__icon">
                 <use href="src/img/icons.svg#icon-check"></use>
@@ -127,7 +133,7 @@ class recipeView {
                 ${ing.description}
               </div>
             </li>`;
-    };
   }
+}
 
 export default new recipeView();
