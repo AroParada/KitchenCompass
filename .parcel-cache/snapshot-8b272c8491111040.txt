@@ -1,4 +1,4 @@
-10162
+10163
 122C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\actual\iterator\reduce.js133570762127952656 0
 113C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\abortcontroller-polyfill133570669616285268 1
 113C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\@lezer\lr\dist\index.cjs133570669611648663 0
@@ -11,7 +11,7 @@
 106C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\@msgpackr-extract133573340548122061 1
 120C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\@parcel\transformer-svg\LICENSE133570669610006153 0
 144C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\dom-serializer\node_modules\entities\lib\index.d.ts.map133570669616265338 0
-80C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\dist133577767617787348 1
+80C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\dist133578471292176963 1
 131C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\utility-types\dist\aliases-and-guards.d.ts133570669616798586 0
 126C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\proposals\function-un-this.js133570762103347433 0
 106C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\has-flag\index.js133570669611005108 0
@@ -227,7 +227,7 @@
 107C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\htmlnano\index.mjs133570669622829651 0
 111C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\ansi-styles\index.d.ts133570669612755480 0
 129C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\stable\string\from-code-point.js133570762102238502 0
-88C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\src\js\views133576829625569893 1
+88C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\src\js\views133577971873145758 1
 102C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\node-releases133570669613201998 1
 102C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\svgo\bin\svgo133570669611583277 0
 124C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\postcss-value-parser\lib\index.d.ts133570669614789127 0
@@ -273,7 +273,7 @@
 144C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\csso\node_modules\css-tree\cjs\lexer\prepare-tokens.cjs133570669623181465 0
 118C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\css-tree\cjs\walker\index.cjs133570669622307219 0
 118C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\actual\math\fround.js133570762103016114 0
-96C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\src\js\controller.js133577767616167576 0
+96C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\src\js\controller.js133578459153921617 0
 97C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\argparse133570669614508011 1
 97C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\entities133570669617602455 1
 120C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\console-browserify\CHANGELOG.md133573340362312142 0
@@ -286,6 +286,13 @@
 119C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\immutable\dist\immutable.es.js133570669991048883 0
 112C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\@parcel\bundler-default133570669613257227 1
 91C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\src\js\model.js133577767355686878 0
+93C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\.bin133570669992191248 1
+127C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\css-select\node_modules\domhandler\lib133570669616843773 1
+117C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\entities\lib\encode.d.ts.map133570669617316660 0
+124C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\full\array\virtual\slice.js133570762134436265 0
+164C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\@parcel\source-map\parcel_sourcemap_wasm\dist-node\parcel_sourcemap_wasm.js133570669615751339 0
+106C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\src\js\views\paginationView.js133578471289095946 0
+117C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\assert\build\internal\assert133573340506626909 1
 102C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\src\js\views\recipeView.js133577706512663229 0
 115C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\@parcel\utils\.eslintrc.js133570669612590164 0
 114C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\semver\functions\major.js133570669618058758 0
@@ -319,10 +326,6 @@
 125C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\css-what\lib\commonjs\parse.d.ts.map133570669616149805 0
 93C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\src\img\icons.svg133492070115806611 0
 123C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\es\string\code-point-at.js133570762074501054 0
-93C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\.bin133570669992191248 1
-127C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\css-select\node_modules\domhandler\lib133570669616843773 1
-117C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\entities\lib\encode.d.ts.map133570669617316660 0
-124C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\full\array\virtual\slice.js133570762134436265 0
 146C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\csso\node_modules\css-tree\cjs\tokenizer\adopt-buffer.cjs133570669610824547 0
 102C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\source-map-js133570669616617999 1
 123C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\features\symbol\key-for.js133570762117573216 0
@@ -340,17 +343,6 @@
 109C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\has-proto\index.d.ts133572712219669189 0
 138C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\modules\esnext.async-iterator.to-array.js133570762090670467 0
 127C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\svgo\plugins\addClassesToSVGElement.js133570669619776042 0
-108C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\term-size\readme.md133570669614718968 0
-142C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\css-select\node_modules\domutils\lib\esm\feeds.js.map133570669617812849 0
-111C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\nth-check\lib\index.js133570669612870890 0
-125C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\@parcel\core\lib\UncommittedAsset.js133570669625661670 0
-128C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\@parcel\runtime-js\src\helpers\.babelrc133570669610241819 0
-94C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\clone133570669613111708 1
-104C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\sass\types\util133570669992039898 1
-134C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\internals\object-define-properties.js133570762122757595 0
-111C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\csso\cjs\clean\Raw.cjs133570669619178744 0
-121C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\htmlnano\lib\modules\example.mjs133570669622679058 0
-117C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\semver\classes\comparator.js133570669613312567 0
 109C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\stable\array133570762154087232 1
 112C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\object-keys\.travis.yml133573340505586308 0
 117C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\features\set\from.js133570762102686964 0
@@ -500,6 +492,17 @@
 150C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\csso\node_modules\css-tree\cjs\syntax\function\expression.cjs133570669619776042 0
 106C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\define-properties133573340505893137 1
 118C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\es\string\iterator.js133570762116466223 0
+108C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\term-size\readme.md133570669614718968 0
+142C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\css-select\node_modules\domutils\lib\esm\feeds.js.map133570669617812849 0
+111C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\nth-check\lib\index.js133570669612870890 0
+125C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\@parcel\core\lib\UncommittedAsset.js133570669625661670 0
+128C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\@parcel\runtime-js\src\helpers\.babelrc133570669610241819 0
+94C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\clone133570669613111708 1
+104C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\sass\types\util133570669992039898 1
+134C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\internals\object-define-properties.js133570762122757595 0
+111C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\csso\cjs\clean\Raw.cjs133570669619178744 0
+121C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\htmlnano\lib\modules\example.mjs133570669622679058 0
+117C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\semver\classes\comparator.js133570669613312567 0
 113C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\timsort\build\timsort.js133570669613443378 0
 120C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\full\object\group-by.js133570762105950757 0
 110C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\import-fresh\index.js133570669610437274 0
@@ -704,7 +707,7 @@
 128C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\internals\flatten-into-array.js133570762100506589 0
 130C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\stable\string\virtual\trim-end.js133570762147595444 0
 98C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\has-proto133572712219728319 1
-98C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\dist\index.e37f48ea.js133577767617550378 0
+98C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\dist\index.e37f48ea.js133578471291781558 0
 122C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\available-typed-arrays\index.d.ts133573340468862733 0
 109C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\msgpackr-extract\src133570669610427285 1
 128C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\features\instance\find-index.js133570762097454190 0
@@ -1910,6 +1913,8 @@
 123C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\source-map-js\lib\binary-search.js133570669612870890 0
 114C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\es\array\every.js133570762095015267 0
 112C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\normalize-path\index.js133570669990883618 0
+122C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\set-function-length\tsconfig.json133572712219690561 0
+120C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\features\array\group.js133570762106345392 0
 136C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\proposals\string-replace-all-stage-4.js133570762138530102 0
 112C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\source-map\CHANGELOG.md133570669616653272 0
 129C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\features\set\is-disjoint-from.js133570762113252339 0
@@ -1919,8 +1924,6 @@
 134C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\features\typed-array\filter-reject.js133570762096466305 0
 139C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\htmlnano\lib\modules\removeRedundantAttributes.mjs133570669623509123 0
 121C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\es-define-property\test\index.js133572712219583577 0
-122C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\set-function-length\tsconfig.json133572712219690561 0
-120C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\features\array\group.js133570762106345392 0
 129C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\modules\es.array.reduce-right.js133570762082438296 0
 112C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\sass\types\compile.d.ts133570669991465455 0
 112C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\color-name\package.json133570669609926154 0
@@ -2570,11 +2573,11 @@
 112C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\ordered-binary\index.js133570669612515007 0
 125C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\actual\symbol\description.js133570762079004781 0
 122C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\features\math\f16round.js133570762095741107 0
+134C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\@parcel\optimizer-htmlnano\src\svgMappings.js133570669613056505 0
+142C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\csso\node_modules\css-tree\lib\syntax\node\AnPlusB.js133570669624524887 0
 111C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\ordered-binary\LICENSE133570669609894181 0
 117C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\full\dom-collections133570762116684643 1
 106C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\object-is\auto.js133573340506417572 0
-134C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\@parcel\optimizer-htmlnano\src\svgMappings.js133570669613056505 0
-142C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\csso\node_modules\css-tree\lib\syntax\node\AnPlusB.js133570669624524887 0
 116C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\ordered-binary\package.json133570669615460130 0
 163C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\Identifier.js133570669621474496 0
 113C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\ordered-binary\README.md133570669615741359 0
@@ -4877,10 +4880,10 @@
 107C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\callsites\index.js133570669611015066 0
 128C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\stable\typed-array\to-string.js133570762146456683 0
 125C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\internals\error-to-string.js133570762081544131 0
+118C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\@swc\helpers\cjs\_extends.cjs133570669620334049 0
+111C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\@swc\core\package.json133570669615285685 0
 134C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\css-tree\lib\syntax\config\parser-selector.js133570669626883000 0
 110C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\features\json133570762145388052 1
-111C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\@swc\core\package.json133570669615285685 0
-118C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\@swc\helpers\cjs\_extends.cjs133570669620334049 0
 126C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\stable\array\virtual\slice.js133570762134590369 0
 125C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\css-tree\lib\syntax\config\walker.js133570669627640189 0
 128C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\css-tree\lib\syntax\atrule\font-face.js133570669625772512 0
@@ -5795,8 +5798,8 @@
 135C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\@swc\helpers\cjs\_async_generator_delegate.cjs133570669614176863 0
 125C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\proposals\array-filtering.js133570762069728938 0
 126C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\features\reflect\construct.js133570762075643801 0
-134C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\internals\array-buffer-byte-length.js133570762069397316 0
 134C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\proposals\array-from-async-stage-2.js133570762069818868 0
+134C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\internals\array-buffer-byte-length.js133570762069397316 0
 126C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\proposals\array-from-async.js133570762069862235 0
 144C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\proposals\async-explicit-resource-management.js133570762071099517 0
 141C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\proposals\data-view-get-set-uint8-clamped.js133570762077438150 0
@@ -6686,7 +6689,7 @@
 134C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\full\string\virtual\to-well-formed.js133570762146777982 0
 129C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\full\string\virtual\trim-left.js133570762147922085 0
 117C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\full\number\index.js133570762111060675 0
-98C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\dist\logo.726d37a8.png133577767358625975 0
+98C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\dist\logo.726d37a8.png133578471291950362 0
 130C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\full\string\virtual\trim-right.js133570762148328701 0
 124C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\full\string\virtual\trim.js133570762149166265 0
 117C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\core-js\actual\array\some.js133570762134931010 0
@@ -8705,8 +8708,6 @@
 156C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\@parcel\core\test\fixtures\config-extends-not-found\.parcelrc-json5133570669616497013 0
 157C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\parser\index.js133570669622005892 0
 111C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\assert\build\assert.js133573340506532365 0
-164C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\@parcel\source-map\parcel_sourcemap_wasm\dist-node\parcel_sourcemap_wasm.js133570669615751339 0
-117C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\assert\build\internal\assert133573340506626909 1
 120C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\assert\build\internal\errors.js133573340507112231 0
 115C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\assert\build\internal\util133573340506733457 1
 130C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\assert\build\internal\util\comparisons.js133573340506825800 0
@@ -10154,10 +10155,10 @@
 120C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\node_modules\.bin\update-browserslist-db.ps1133570669637588716 0
 98C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\dist\index.62406edb.js133570733654797768 0
 104C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\dist\starter.3464ddca.js.map133570733649715648 0
-99C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\dist\icons.21bad73c.svg133577767360987437 0
-101C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\dist\favicon.8b2f57bf.png133577767361525133 0
-99C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\dist\index.f7626f62.css133577767362478476 0
-103C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\dist\index.f7626f62.css.map133577767362532576 0
-91C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\dist\index.html133577767362856597 0
-99C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\dist\icons.dfd7a6db.svg133577767362856597 0
-102C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\dist\index.e37f48ea.js.map133577767617761560 0
+99C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\dist\index.f7626f62.css133578471291480175 0
+91C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\dist\index.html133578471291480175 0
+103C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\dist\index.f7626f62.css.map133578471291588377 0
+101C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\dist\favicon.8b2f57bf.png133578471291652332 0
+102C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\dist\index.e37f48ea.js.map133578471291891583 0
+99C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\dist\icons.21bad73c.svg133578471292101886 0
+99C:\Users\harol\personalfolder\complete-javascript-course\18-forkify\starter\dist\icons.dfd7a6db.svg133578471292101886 0
