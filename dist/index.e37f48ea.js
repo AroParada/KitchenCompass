@@ -624,7 +624,7 @@ const controlSearchResults = async function() {
         // load search results
         await _modelJs.loadSearchResults(query);
         // render results
-        (0, _resultsViewJsDefault.default).render(_modelJs.getSearchResultsPage(3));
+        (0, _resultsViewJsDefault.default).render(_modelJs.getSearchResultsPage());
         // render initial pagination buttons
         (0, _paginationViewJsDefault.default).render(_modelJs.state.search);
     } catch (err) {
@@ -1920,7 +1920,6 @@ const loadRecipe = async function(id) {
             cookingTime: recipe.cooking_time,
             ingredients: recipe.ingredients
         };
-    // console.log(state.recipe);
     } catch (err) {
         console.log(`${err} !!!!!!!!`);
         throw err;
@@ -1939,6 +1938,7 @@ const loadSearchResults = async function(query) {
                 image: rec.image_url
             };
         });
+        state.search.page = 1;
     } catch (err) {
         console.log(`${err} !!!!!!!!`);
         throw err;
