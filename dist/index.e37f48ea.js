@@ -604,6 +604,8 @@ const controlRecipes = async function() {
         // console.log(id);
         if (!id) return;
         (0, _recipeViewJsDefault.default).renderSpinner();
+        // update results view to mark selected search result
+        (0, _resultsViewJsDefault.default).update(_modelJs.getSearchResultsPage());
         // loading recipe
         await _modelJs.loadRecipe(id);
         // Rendering recipe
@@ -2738,7 +2740,6 @@ class View {
         this._parentElement.insertAdjacentHTML("afterbegin", markup);
     }
     update(data) {
-        if (!data || Array.isArray(data) && data.length === 0) return this.renderError();
         this._data = data;
         const newMarkup = this._generateMarkup();
         const newDOM = document.createRange().createContextualFragment(newMarkup);
@@ -3127,9 +3128,10 @@ class ResultsView extends (0, _viewDefault.default) {
         return this._data.map(this._generateMarkupPreview).join("");
     }
     _generateMarkupPreview(result) {
+        const id = window.location.hash.slice(1);
         return `
       <li class="preview">
-            <a class="preview__link " href="#${result.id}">
+            <a class="preview__link ${result.id === id ? "preview__link--active" : ""}" href="#${result.id}">
               <figure class="preview__fig">
                 <img src="${result.image}" alt="${result.title}" />
               </figure>
@@ -3138,7 +3140,7 @@ class ResultsView extends (0, _viewDefault.default) {
                 <p class="preview__publisher">${result.publisher}</p>
               </div>
             </a>
-          </li>  
+          </li> 
     `;
     }
 }
