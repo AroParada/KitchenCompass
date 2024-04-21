@@ -37,6 +37,8 @@ class AddRecipeView extends View {
         const dataArr = [...new FormData(this)];
         const data = Object.fromEntries(dataArr);
         handler(data);
+    this._btnOpen.addEventListener('click', this.toggleWindow.bind(this));
+
     })
   }
 
