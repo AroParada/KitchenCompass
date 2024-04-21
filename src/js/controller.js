@@ -1,4 +1,5 @@
 import * as model from './model.js';
+import { MODAL_CLOSE_SEC } from './config.js';
 import recipeView from './views/recipeView.js';
 import searchView from './views/searchView.js';
 import resultsView from './views/resultsView.js';
@@ -24,13 +25,13 @@ const controlRecipes = async function () {
 
     // update results view to mark selected search result
     resultsView.update(model.getSearchResultsPage());
-    
+
     // updating bookmarks view
-    bookmarksView.update(model.state.bookmarks)
-    
+    bookmarksView.update(model.state.bookmarks);
+
     // loading recipe
     await model.loadRecipe(id);
-    
+
     // Rendering recipe
     recipeView.render(model.state.recipe);
   } catch (err) {
@@ -73,35 +74,53 @@ const controlServings = function (newServings) {
   recipeView.update(model.state.recipe);
 };
 
-const controlAddBookmark = function() {
+const controlAddBookmark = function () {
   // add or remove bookmark
-  if(!model.state.recipe.bookmarked) model.addBookmark(model.state.recipe);
-  else model.deleteBookmark(model.state.recipe.id)
+  if (!model.state.recipe.bookmarked) model.addBookmark(model.state.recipe);
+  else model.deleteBookmark(model.state.recipe.id);
 
   // update recipe view
-  recipeView.update(model.state.recipe)
+  recipeView.update(model.state.recipe);
 
   // render bookmarks
-  bookmarksView.render(model.state.bookmarks)
+  bookmarksView.render(model.state.bookmarks);
 };
 
-const controlBookmarks = function() {
-  bookmarksView.render(model.state.bookmarks)
-}
+const controlBookmarks = function () {
+  bookmarksView.render(model.state.bookmarks);
+};
 
-const controlAddRecipe = function (newRecipe) {
-  console.log(newRecipe);
+const controlAddRecipe = async function (newRecipe) {
+  try {
+    // Show loading spinner 
+    addRecipeView.renderSpinner
+    // updload the new recipe data
+    await model.uploadRecipe(newRecipe);
+    console.log(model.state.recipe);
 
-  // updload the new recipe data
-}
+    // render recipe
+    recipeView.render(model.state.recipe);
+
+    //success message
+    addRecipeView.renderMessage();
+
+    // close form window
+    setTimeout(function () {
+      addRecipeView.toggleWindow();
+    }, MODAL_CLOSE_SEC * 1000);
+  } catch (err) {
+    console.error('!!!!!', err);
+    addRecipeView.renderError(err.message);
+  }
+};
 
 const init = function () {
-  bookmarksView.addHandlerRender(controlBookmarks)
-  recipeView.addHandlerAddBookmark(controlAddBookmark)
+  bookmarksView.addHandlerRender(controlBookmarks);
+  recipeView.addHandlerAddBookmark(controlAddBookmark);
   recipeView.addHandlerRender(controlRecipes);
   recipeView.addHandlerUpdateServings(controlServings);
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addHandleClick(controlPagination);
-  addRecipeView.addHandlerUpload(controlAddRecipe)
+  addRecipeView.addHandlerUpload(controlAddRecipe);
 };
 init();
